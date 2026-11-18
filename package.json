@@ -1,0 +1,27 @@
+{
+  "name": "lenticular-studio",
+  "version": "1.0.0",
+  "description": "光栅卡交错图生成工具：光学分条、误差抖动、校准图、three.js 转动预览与串帧分析",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "tsx src/cli/bench.ts",
+    "export": "tsx src/cli/export.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/three": "^0.171.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}
